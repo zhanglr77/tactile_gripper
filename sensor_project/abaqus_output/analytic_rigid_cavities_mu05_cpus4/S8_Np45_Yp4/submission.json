@@ -1,0 +1,10 @@
+﻿{
+    "cpus":  4,
+    "include_magnet_cavities":  true,
+    "case_id":  "S8_Np45_Yp4",
+    "job":  "Job-S8_Np45_Yp4",
+    "launcher_pid":  30456,
+    "friction":  0.5,
+    "memory":  "10%",
+    "submitted_at":  "2026-10-28T14:21:03"
+}

@@ -1,0 +1,135 @@
+{
+    "schema_version":  2,
+    "units":  "mm",
+    "description":  "v2: six analytical hemispheres and three analytical flat indenters; compression at friction 0.5",
+    "position_definition":  {
+                                "normal_angle_deg":  "surface outward normal angle from global +Z toward global +X in the XZ plane",
+                                "y_mm":  "global Y coordinate of the contact row"
+                            },
+    "shared_loading":  {
+                           "initial_gap_mm":  3.0,
+                           "compression_depth_mm":  3.0,
+                           "compression_checkpoints_mm":  [
+                                                              0.5,
+                                                              1.0,
+                                                              1.5,
+                                                              2.0,
+                                                              2.5,
+                                                              3.0
+                                                          ],
+                           "shear_execution":  "restart_branch_from_each_compression_checkpoint",
+                           "shear_cases":  [
+                                               {
+                                                   "case_id":  "P25_Np00_Y0",
+                                                   "t1_mm":  3.0,
+                                                   "t2_mm":  0.0,
+                                                   "branch_from_each_compression_checkpoint":  true
+                                               }
+                                           ],
+                           "friction_coefficient":  0.5
+                       },
+    "cases":  [
+                  {
+                      "case_id":  "S8_Nm45_Ym4",
+                      "indenter":  {
+                                       "type":  "sphere",
+                                       "diameter_mm":  8.0
+                                   },
+                      "surface_position":  {
+                                               "normal_angle_deg":  -45.0,
+                                               "y_mm":  -4.0
+                                           }
+                  },
+                  {
+                      "case_id":  "S8_Nm45_Yp4",
+                      "indenter":  {
+                                       "type":  "sphere",
+                                       "diameter_mm":  8.0
+                                   },
+                      "surface_position":  {
+                                               "normal_angle_deg":  -45.0,
+                                               "y_mm":  4.0
+                                           }
+                  },
+                  {
+                      "case_id":  "S8_Np00_Ym4",
+                      "indenter":  {
+                                       "type":  "sphere",
+                                       "diameter_mm":  8.0
+                                   },
+                      "surface_position":  {
+                                               "normal_angle_deg":  0.0,
+                                               "y_mm":  -4.0
+                                           }
+                  },
+                  {
+                      "case_id":  "S8_Np00_Yp4",
+                      "indenter":  {
+                                       "type":  "sphere",
+                                       "diameter_mm":  8.0
+                                   },
+                      "surface_position":  {
+                                               "normal_angle_deg":  0.0,
+                                               "y_mm":  4.0
+                                           }
+                  },
+                  {
+                      "case_id":  "S8_Np45_Ym4",
+                      "indenter":  {
+                                       "type":  "sphere",
+                                       "diameter_mm":  8.0
+                                   },
+                      "surface_position":  {
+                                               "normal_angle_deg":  45.0,
+                                               "y_mm":  -4.0
+                                           }
+                  },
+                  {
+                      "case_id":  "S8_Np45_Yp4",
+                      "indenter":  {
+                                       "type":  "sphere",
+                                       "diameter_mm":  8.0
+                                   },
+                      "surface_position":  {
+                                               "normal_angle_deg":  45.0,
+                                               "y_mm":  4.0
+                                           }
+                  },
+                  {
+                      "case_id":  "P25_Np00_Y0",
+                      "indenter":  {
+                                       "type":  "rectangular_flat",
+                                       "width_mm":  25.0,
+                                       "length_mm":  25.0
+                                   },
+                      "surface_position":  {
+                                               "normal_angle_deg":  0.0,
+                                               "y_mm":  0.0
+                                           }
+                  },
+                  {
+                      "case_id":  "P25_Nm45_Y0",
+                      "indenter":  {
+                                       "type":  "rectangular_flat",
+                                       "width_mm":  25,
+                                       "length_mm":  25
+                                   },
+                      "surface_position":  {
+                                               "normal_angle_deg":  -45,
+                                               "y_mm":  0
+                                           }
+                  },
+                  {
+                      "case_id":  "P25_Np45_Y0",
+                      "indenter":  {
+                                       "type":  "rectangular_flat",
+                                       "width_mm":  25,
+                                       "length_mm":  25
+                                   },
+                      "surface_position":  {
+                                               "normal_angle_deg":  45,
+                                               "y_mm":  0
+                                           }
+                  }
+              ]
+}

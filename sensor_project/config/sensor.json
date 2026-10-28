@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "sensor_id": "v2",
+  "name": "v2 磁传感器",
+  "units": {
+    "length": "mm"
+  },
+  "coordinate_system": {
+    "type": "right_handed_cartesian",
+    "origin_global_mm": [0.0, 0.0, 0.0]
+  }
+}

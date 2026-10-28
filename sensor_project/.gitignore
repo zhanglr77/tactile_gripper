@@ -1,0 +1,22 @@
+# Large solver databases are stored separately from the source project.
+*.odb
+*.odb_f
+*.stt
+*.mdl
+*.res
+*.sim
+*.simdir/
+
+# Abaqus temporary and session files.
+*.lck
+*.023
+*.rec
+*.exception
+*.rpy*
+*.rjn*
+abq.app_cache/
+abaqus_plugins_cache/
+
+# Python caches.
+__pycache__/
+*.py[cod]

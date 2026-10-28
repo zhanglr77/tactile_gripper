@@ -1,0 +1,30 @@
+{
+    "case_id":  "S8_Nm45_Yp4",
+    "indenter":  {
+                     "type":  "sphere",
+                     "diameter_mm":  8.0
+                 },
+    "surface_position":  {
+                             "normal_angle_deg":  -45.0,
+                             "y_mm":  4.0
+                         },
+    "initial_gap_mm":  3.0,
+    "friction":  0.5,
+    "depth_mm":  3,
+    "compression_checkpoints_mm":  [
+                                       0.5,
+                                       1.0,
+                                       1.5,
+                                       2.0,
+                                       2.5,
+                                       3.0
+                                   ],
+    "compression_only":  true,
+    "shear_mm":  0,
+    "shear_branches":  [
+
+                       ],
+    "indenter_representation":  "analytical_rigid_surface",
+    "include_magnet_cavities":  true,
+    "geometry_builder_ready":  true
+}

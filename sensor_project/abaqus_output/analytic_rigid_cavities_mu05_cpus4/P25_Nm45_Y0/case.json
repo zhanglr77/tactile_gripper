@@ -1,0 +1,31 @@
+{
+    "case_id":  "P25_Nm45_Y0",
+    "indenter":  {
+                     "type":  "rectangular_flat",
+                     "width_mm":  25,
+                     "length_mm":  25
+                 },
+    "surface_position":  {
+                             "normal_angle_deg":  -45,
+                             "y_mm":  0
+                         },
+    "initial_gap_mm":  3.0,
+    "friction":  0.5,
+    "depth_mm":  3,
+    "compression_checkpoints_mm":  [
+                                       0.5,
+                                       1.0,
+                                       1.5,
+                                       2.0,
+                                       2.5,
+                                       3.0
+                                   ],
+    "compression_only":  true,
+    "shear_mm":  0,
+    "shear_branches":  [
+
+                       ],
+    "indenter_representation":  "analytical_rigid_surface",
+    "include_magnet_cavities":  true,
+    "geometry_builder_ready":  true
+}
