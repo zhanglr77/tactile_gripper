@@ -1,0 +1,47 @@
+{
+  "magnet_geometry": {
+    "type": "cylinder",
+    "diameter": 3,
+    "height": 2,
+    "Br_mT": 850,
+    "direction_axis": "local_z"
+  },
+  "magnets": [
+    {
+      "id": "mag1",
+      "position": [0, -5, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag2",
+      "position": [0, 5, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag3",
+      "position": [6, -5, 3],
+      "direction": [0.866025, 0, 0.5],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag4",
+      "position": [6, 5, 3],
+      "direction": [0.866025, 0, 0.5],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag5",
+      "position": [-6, -5, 3],
+      "direction": [-0.866025, 0, 0.5],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag6",
+      "position": [-6, 5, 3],
+      "direction": [-0.866025, 0, 0.5],
+      "magnetization_sign": 1
+    }
+  ]
+}\n

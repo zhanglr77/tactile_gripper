@@ -1,0 +1,69 @@
+{
+  "dimensions": ["folder", "hall", "axis"],
+  "hall_ids": ["hall1", "hall2", "hall3", "hall4"],
+  "axes": ["x", "y", "z"],
+  "units": "mT",
+  "readings_mT": [
+    {
+      "folder_name": "01_Finger_P1",
+      "readings_mT": [
+        [5.343683, 0, 10.728911],
+        [-4.315095, -8.960993, -4.185248],
+        [6.583427, 0, 18.172818],
+        [-4.315095, 8.960993, -4.185248]
+      ]
+    },
+    {
+      "folder_name": "02_Finger_P2",
+      "readings_mT": [
+        [4.426183, 0, 9.951113],
+        [0, -9.775881, -4.643379],
+        [-4.426183, 0, 9.951113],
+        [0, 9.775881, -4.643379]
+      ]
+    },
+    {
+      "folder_name": "03_Finger_P3",
+      "readings_mT": [
+        [1.947834, 0, 16.645568],
+        [0, -10.267228, -4.635822],
+        [-1.947834, 0, 16.645568],
+        [0, 10.267228, -4.635822]
+      ]
+    },
+    {
+      "folder_name": "04_Thumb_P1",
+      "readings_mT": [
+        [1.375233, 0, 16.284581],
+        [0, -9.285655, -5.240334],
+        [-1.375233, 0, 16.284581],
+        [0, 9.285655, -5.240334]
+      ]
+    },
+    {
+      "folder_name": "05_Thumb_P2",
+      "readings_mT": [
+        [2.038231, 0, 16.308668],
+        [0, -7.40283, -4.628424],
+        [-2.038231, 0, 16.308668],
+        [0, 7.40283, -4.628424]
+      ]
+    },
+    {
+      "folder_name": "06_Thumb_P3",
+      "readings_mT": [
+        [15.080861, 0, 15.79962],
+        [0, 10.702788, -3.117643],
+        [-15.080861, 0, 15.79962],
+        [0, -10.702788, -3.117643]
+      ]
+    }
+  ],
+  "method": "point_magnetic_dipole_superposition",
+  "assumptions": {
+    "magnet_model": "uniformly magnetized cylindrical magnet represented by a point dipole at its listed position",
+    "Br_mT": "used as remanent flux density; dipole moment m=(Br/mu0)*V*direction*magnetization_sign",
+    "field_formula": "B = mu0/(4*pi*r^3) * (3*(m dot rhat)rhat - m)",
+    "sensor_reading": "[Bx,By,Bz] in each Hall sensor coordinate system using axes_global; template axes are applied to every folder"
+  }
+}

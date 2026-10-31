@@ -1,0 +1,107 @@
+{
+  "magnet_geometry": {
+    "type": "cylinder",
+    "diameter": 3,
+    "height": 2,
+    "Br_mT": 850,
+    "direction_axis": "local_z"
+  },
+  "magnets": [
+    {
+      "id": "mag1",
+      "position": [-30, 68, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag2",
+      "position": [-15, 68, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag3",
+      "position": [-30, 53, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag4",
+      "position": [-15, 53, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag5",
+      "position": [15, 77, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag6",
+      "position": [0, 73, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag7",
+      "position": [30, 73, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag8",
+      "position": [15, 65, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag9",
+      "position": [0, 58, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag10",
+      "position": [0, 43, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag11",
+      "position": [-30, 38, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag12",
+      "position": [-15, 38, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag13",
+      "position": [-25, 26, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag14",
+      "position": [-5, 26, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag15",
+      "position": [-25, 12, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    },
+    {
+      "id": "mag16",
+      "position": [-5, 12, 4],
+      "direction": [0, 0, 1],
+      "magnetization_sign": 1
+    }
+  ]
+}

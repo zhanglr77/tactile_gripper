@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "sensor_id": "06_Thumb_P3",
+  "name": "Integrated_Hand_V1",
+  "units": {
+    "length": "mm"
+  },
+  "coordinate_system": {
+    "type": "right_handed_cartesian",
+    "origin_global_mm": [0, 0, 0]
+  }
+}
